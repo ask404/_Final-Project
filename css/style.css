@@ -1,0 +1,236 @@
+/* Universal */
+body{
+	font-family: 'Alegreya', sans-serif;
+}
+
+/*Welcome Page*/
+body#enter-background {
+	background-color: black;
+}
+
+#enter-container{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#enter-site-container{
+	padding-top: 50px;
+}
+
+#enter-site-container form {
+	font-family: 'Playfair Display SC', serif; 
+	color: white;
+	font-size: 12px;
+	letter-spacing: 0.2em;
+	padding-bottom: 20px;
+}
+ 
+.enter{
+	font-family: 'Playfair Display SC', serif; 
+	color: grey;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.2em;
+	font-style: italic;
+}
+
+.enter:visited {
+	color:grey;
+}
+
+button {
+	font-family: 'Playfair Display SC', serif; 
+}
+
+.enter:hover {
+	color: white;
+	font-weight: normal;
+}
+
+#password-container{
+	display: block;
+}
+
+#enter-site{
+	display: none;
+}
+
+#amazon-link{
+	display: none;
+}
+
+
+
+/* Home Page*/
+body.background {
+	background-image: url('../images/Dartmouth3.jpg');
+	background-position: overflow;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+header{
+	background-color: rgba(0,0,0,0.3);
+	margin-top: 30px;
+	height: 70px;
+}
+
+nav {
+	font-family: 'Playfair Display SC', serif; 
+	height: 70px;
+}
+
+nav ul {
+	margin-top: 26px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#nav-logo{
+	background-color: none;
+	position:absolute;
+	top:35px;
+	left:80px;
+}
+
+nav li {
+	background-color: none;
+	display: inline;
+	margin-left: 30px;
+	margin-right:30px;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+nav li a {
+	color: #ffffff;
+	font-size: 14px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 5px;
+	border-top: none white 1px;
+	letter-spacing: 0.25em;
+}
+
+nav li a:hover {
+	color: #000000;
+	border-top: none black 1px;
+}
+
+nav li a.current {
+	color: #000000;
+	border-top: none black 1px;
+}
+
+#home-container{
+	margin-top: 50px;
+	background-color: none;
+}
+
+#home-header-container{
+	/*background-color: rgba(255, 255, 255,0.4);*/
+	border-radius: 20px 20px;
+}
+
+#home-header{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.8em;
+}
+
+#home-quote{
+	font-style: italic;
+	font-size: 18px;
+}
+
+#home-quote-attr{
+	text-align: right;
+}
+
+.upper{
+	text-transform: uppercase;
+	font-family: 'Playfair Display SC', serif; 
+}
+
+.home-text{
+	padding: 0px 15px;
+}
+
+#home-news-container {
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255,0.4);
+	border-radius: 20px 20px;
+	clear:both;
+}
+
+#home-email-container {
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255,0.4);
+	border-radius: 20px 20px;
+}
+
+/* Connect Page */
+
+#connect-container{
+	margin-top: 50px;
+	background-color: none;
+}
+
+#connect-header{
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.2em;
+}
+
+.connect-line-container {
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255,0.4);
+	border-radius: 20px 20px;
+}
+.connect-text{
+	padding: 0px 20px;
+}
+
+.line-header{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin:15px 0px 5px 0px;
+}
+
+ol{
+	list-style-type: upper-roman;
+	font-style: italic;
+}
+
+ol li{
+	padding-left: 2px;
+	margin-left:15px;
+	margin-bottom: 4px;
+}
+
+a.profile{
+	color: black;
+	text-decoration: none;
+}
+
+a:visited.profile{
+	color: black;
+	text-decoration: none;
+}
+
+a:hover.profile{
+	color: white;
+	text-decoration: none;
+}
+
+.hide{
+	display:none;
+}
