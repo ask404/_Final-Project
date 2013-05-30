@@ -1,9 +1,9 @@
-/* Universal */
+/* UNIVERSAL */
 body{
 	font-family: 'Alegreya', sans-serif;
 }
 
-/*Welcome Page*/
+/* WELCOME PAGE */
 body#enter-background {
 	background-color: black;
 }
@@ -61,7 +61,8 @@ button {
 
 
 
-/* Home Page*/
+/* HOME PAGE */
+
 body.background {
 	background-image: url('../images/Dartmouth3.jpg');
 	background-position: overflow;
@@ -124,6 +125,8 @@ nav li a:hover {
 nav li a.current {
 	color: #000000;
 	border-top: none black 1px;
+	font-weight: 600;
+	font-size: 14px;
 }
 
 #home-container{
@@ -174,7 +177,7 @@ nav li a.current {
 	border-radius: 20px 20px;
 }
 
-/* Connect Page */
+/* CONNECT PAGE */
 
 #connect-container{
 	margin-top: 50px;
@@ -191,6 +194,7 @@ nav li a.current {
 
 .connect-line-container {
 	margin-top: 25px;
+	padding-bottom: 10px;
 	background-color: rgba(255, 255, 255,0.4);
 	border-radius: 20px 20px;
 	float: left;
@@ -211,15 +215,29 @@ nav li a.current {
 	margin:15px 0px 5px 0px;
 }
 
-ol{
+	/*ol{
 	list-style-type: upper-roman;
 	font-style: italic;
-}
+	}
 
-ol li{
+	ol li{
 	padding-left: 2px;
 	margin-left:15px;
 	margin-bottom: 4px;
+	}*/
+
+
+p.line {
+	font-style: italic;
+	padding-left: 10px;
+	margin: 5px 0px 0px 15px;
+	color:red;
+}
+
+p.line-show {
+	font-style: italic;
+	padding-left: 10px;
+	margin: 15px 0px 0px 15px;
 }
 
 a.profile {
@@ -237,12 +255,16 @@ a:hover.profile{
 	text-decoration: none;
 }
 
+
 div:hover.expand-toggle{
 	color: white;
 	text-decoration: none;
 	font-weight: bold;
 	cursor: pointer;
+}
 
+#connect-search-container:hover{
+	background-color: rgba(255,255,255,0.8);
 }
 
 .hide{
@@ -263,6 +285,8 @@ div:hover.expand-toggle{
 	margin-top: 0px;
 	margin-bottom: 25px;
 }
+
+
 
 #connect-search{
 	clear:both;
@@ -290,3 +314,44 @@ input:focus#search-input, input:hover#search-input{
 	background-color: #ffffff;
 	border: 1px solid #b1e1e4;
 }
+
+/* DONATION PAGE */
+
+#donate-container{
+	margin-top: 50px;
+	background-color: none;
+}
+
+#donate-header-container{
+	/*background-color: rgba(255, 255, 255,0.4);*/
+	border-radius: 20px 20px;
+}
+
+#donate-header{
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	letter-spacing: 0.4em;
+}
+
+#donate-tagline{
+	font-style: italic;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+#donate-lpd{
+	text-align: right;
+}
+
+.donate-text{
+	padding: 0px 15px;
+}
+
+#donate-paypal-container {
+	margin-top: 100px;
+	background-color: rgba(255, 255, 255,0.4);
+	border-radius: 20px 20px;
+	clear:both;
+}
+
