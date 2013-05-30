@@ -185,16 +185,22 @@ nav li a.current {
 	font-size: 28px;
 	font-weight: bold;
 	text-align: center;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.5em;
+	margin-bottom: 75px;
 }
 
 .connect-line-container {
-	margin-top: 100px;
+	margin-top: 25px;
 	background-color: rgba(255, 255, 255,0.4);
 	border-radius: 20px 20px;
+	float: left;
 }
 .connect-text{
 	padding: 0px 20px;
+}
+
+.column{
+	clear:both;
 }
 
 .line-header{
@@ -216,7 +222,7 @@ ol li{
 	margin-bottom: 4px;
 }
 
-a.profile{
+a.profile {
 	color: black;
 	text-decoration: none;
 }
@@ -231,6 +237,56 @@ a:hover.profile{
 	text-decoration: none;
 }
 
+div:hover.expand-toggle{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+
+}
+
 .hide{
 	display:none;
+}
+
+.search-found{
+	font-weight: 1.2em;
+	color: white;
+}
+
+#connect-search-container{
+	clear:both;
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 20px 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+}
+
+#connect-search{
+	clear:both;
+	text-align: center;
+
+}
+
+#search-header{
+	font-family: 'Alegreya', sans-serif;
+	font-size: 18px;
+}
+
+#search-input{
+	font-family: 'Alegreya', sans-serif;
+	font-size: 16px;
+	color: #5a5854;
+	background-color: #f2f2f2;
+	border: 1px solid #bdbdbd;
+	border-radius: 5px;
+	margin-left: 20px;
+	background-image: url("images/logo-3.png");
+}
+
+input:focus#search-input, input:hover#search-input{
+	background-color: #ffffff;
+	border: 1px solid #b1e1e4;
 }
